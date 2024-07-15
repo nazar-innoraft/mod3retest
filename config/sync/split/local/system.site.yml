@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: 1427554f-fa6c-4bfa-a2ce-bf832a66b942
+name: 'Local Employee Management Portal'
+mail: nazar.ali@innoraft.com
+slogan: ''
+page:
+  403: /node/2
+  404: /node/1
+  front: /top-5-recent-news
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

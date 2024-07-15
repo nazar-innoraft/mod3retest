@@ -1,0 +1,15 @@
+uuid: 9109b654-fc16-4b2d-8b54-cb2ba7e16a6e
+langcode: en
+status: true
+dependencies: {  }
+name: custom_200_100
+label: 'Custom (200*100)'
+effects:
+  42a8f33a-91bf-457d-a1bf-0dab3d840dcb:
+    uuid: 42a8f33a-91bf-457d-a1bf-0dab3d840dcb
+    id: image_scale
+    weight: 2
+    data:
+      width: 200
+      height: 100
+      upscale: false

@@ -1,0 +1,29 @@
+uuid: fda24ee5-fd82-49a9-b268-fc3ace861ebe
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_catagory
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__news_catagory_block_1
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:news_catagory-block_1'
+settings:
+  id: 'views_block:news_catagory-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /top-5-recent-news

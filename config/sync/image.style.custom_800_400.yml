@@ -1,0 +1,15 @@
+uuid: bdd676e0-3fd9-4d5a-b3aa-5e47913fdc0b
+langcode: en
+status: true
+dependencies: {  }
+name: custom_800_400
+label: 'Custom (800*400)'
+effects:
+  9745a8a0-ba52-4efc-8955-e9eea0bccc9f:
+    uuid: 9745a8a0-ba52-4efc-8955-e9eea0bccc9f
+    id: image_scale
+    weight: 2
+    data:
+      width: 800
+      height: 400
+      upscale: false
