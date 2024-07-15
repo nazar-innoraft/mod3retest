@@ -1,0 +1,18 @@
+uuid: 7051392b-8ece-4d95-be9e-a7ba0e9c1871
+langcode: en
+status: true
+dependencies: {  }
+id: dev
+label: dev
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: collection
+folder: ''
+module:
+  webform_ui: 0
+theme: {  }
+complete_list: {  }
+partial_list:
+  - system.site

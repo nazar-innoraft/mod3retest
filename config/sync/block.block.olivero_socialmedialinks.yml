@@ -1,0 +1,165 @@
+uuid: 97970c47-393a-4b1d-9754-3f7eb991c191
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - olivero
+id: olivero_socialmedialinks
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  label_display: '0'
+  provider: social_media_links
+  platforms:
+    website:
+      value: 'https://mod3-retest.lndo.site/'
+      description: ''
+      weight: '-47'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '-43'
+    telegram:
+      value: ''
+      description: ''
+      weight: '-42'
+    tiktok:
+      value: ''
+      description: ''
+      weight: '-41'
+    mastodon:
+      value: ''
+      description: ''
+      weight: '-40'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '-39'
+    amazon:
+      value: ''
+      description: ''
+      weight: '-38'
+    email:
+      value: ''
+      description: ''
+      weight: '-37'
+    linkedin:
+      value: company/innoraft
+      description: ''
+      weight: '-36'
+    facebook:
+      value: Innoraft/
+      description: ''
+      weight: '-35'
+    googleplay:
+      value: ''
+      description: ''
+      weight: '-34'
+    patreon:
+      value: ''
+      description: ''
+      weight: '-33'
+    xing:
+      value: ''
+      description: ''
+      weight: '-32'
+    flickr:
+      value: ''
+      description: ''
+      weight: '-31'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '-30'
+    gitlab:
+      value: ''
+      description: ''
+      weight: '-29'
+    rss:
+      value: ''
+      description: ''
+      weight: '-28'
+    behance:
+      value: ''
+      description: ''
+      weight: '-27'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '-26'
+    drupal:
+      value: ''
+      description: ''
+      weight: '-25'
+    glassdoor:
+      value: ''
+      description: ''
+      weight: '-24'
+    youtube:
+      value: ''
+      description: ''
+      weight: '-23'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-22'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '-21'
+    twitter:
+      value: innoraft
+      description: ''
+      weight: '-20'
+    contact:
+      value: ''
+      description: ''
+      weight: '-19'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '-18'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '-17'
+    whatsapp:
+      value: ''
+      description: ''
+      weight: '-16'
+    github:
+      value: ''
+      description: ''
+      weight: '-15'
+    goodreads:
+      value: ''
+      description: ''
+      weight: '-10'
+    meetup:
+      value: ''
+      description: ''
+      weight: '-9'
+    instagram:
+      value: innoraft_solutions/
+      description: ''
+      weight: '-8'
+  appearance:
+    orientation: h
+    show_name: 0
+    suggestion: ''
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:2x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }

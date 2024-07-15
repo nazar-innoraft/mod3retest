@@ -1,0 +1,20 @@
+uuid: d1628518-0b5b-452d-9ae4-4d5919baeda2
+langcode: en
+status: true
+dependencies: {  }
+id: local
+label: local
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: collection
+folder: ''
+module:
+  devel: 0
+  views_ui: 0
+  webform_ui: 0
+theme: {  }
+complete_list: {  }
+partial_list:
+  - system.site
